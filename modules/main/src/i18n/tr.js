@@ -3,13 +3,13 @@ import turkishMessages from 'aor-language-turkish';
 export default {
     ...turkishMessages,
     pos: {
-        search: 'Search',
-        configuration: 'Configuration',
-        language: 'Language',
+        search: 'Ara',
+        configuration: 'Ayarlar',
+        language: 'Dil',
         theme: {
-            name: 'Theme',
-            light: 'Light',
-            dark: 'Dark',
+            name: 'Tema',
+            light: 'Aydınlık',
+            dark: 'Karanlık',
         },
         dashboard: {
             monthly_revenue: 'Monthly Revenue',
