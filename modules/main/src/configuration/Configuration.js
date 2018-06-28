@@ -60,6 +60,14 @@ const Configuration = ({
             >
                 fr
             </Button>
+            <Button
+                variant="raised"
+                className={classes.button}
+                color={locale === 'tr' ? 'primary' : 'default'}
+                onClick={() => changeLocale('tr')}
+            >
+                tr
+            </Button>
         </CardContent>
     </Card>
 );

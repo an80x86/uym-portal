@@ -13,6 +13,7 @@ import Menu from './Menu';
 import { Dashboard } from './dashboard';
 import customRoutes from './routes';
 import englishMessages from './i18n/en';
+import turkishMessages from './i18n/tr';
 
 import {
     VisitorList,
@@ -36,6 +37,9 @@ import fakeServerFactory from './fakeServer';
 const i18nProvider = locale => {
     if (locale === 'fr') {
         return import('./i18n/fr').then(messages => messages.default);
+    }
+    if (locale === 'tr') {
+        return import('./i18n/tr').then(messages => messages.default);
     }
 
     // Always fallback on english
