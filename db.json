@@ -1,0 +1,662 @@
+{
+    "artists": [
+      {
+          "id": 1,
+          "name": "Jimi Hendrix",
+          "cover":"jimi_hendrix.jpg",
+          "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+          "albums": [
+              {"albumId":"a1","title":"Electric Ladyland","year":1968,"cover":"electric-ladyland.jpg","price":20},
+              {"albumId":"a2","title":"Experience","year":1971,"cover":"experienced.jpg","price":25},
+              {"albumId":"a3","title":"Isle of Wright","year":1971,"cover":"isle_of_wright.jpg","price":15},
+              {"albumId":"a4","title":"Band of Gypsys","year":1970,"cover":"band_of_gypsys.jpg","price":10}
+          ],
+          "style":"rock, blues"
+      },
+      {
+          "id": 2,
+          "name": "Madonna",
+          "cover":"madonna.jpg",
+          "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+          "albums": [
+              {"albumId":"b1","title":"Like a Virgin","year":1984,"cover":"like_a_virgin.jpg","price":20},
+              {"albumId":"b2","title":"True Blue","year":1986,"cover":"true_blue.jpg","price":25},
+              {"albumId":"b3","title":"Erotica","year":1994,"cover":"erotica.jpg","price":15},
+              {"albumId":"b4","title":"Ray of Light","year":1998,"cover":"ray_of_light.jpg","price":10}
+          ],
+          "style":"pop"
+      },
+      {
+          "id": 3,
+          "name": "Johnny Cash",
+          "cover":"johnny_cash.jpg",
+          "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+          "albums": [
+              {"albumId":"c1","title":"Ain't No Grave","year":2010,"cover":"no_grave.jpg","price":20},
+              {"albumId":"c2","title":"Out Among the Stars","year":2014,"cover":"among_stars.jpg","price":25},
+              {"albumId":"c3","title":"Solitary Man","year":2000,"cover":"solitary_man.jpg","price":15},
+              {"albumId":"c4","title":"The Man Comes Around","year":2002,"cover":"man_comes_around.jpg","price":10}
+          ],
+          "style":"pop"
+      },
+      {
+          "id": 4,
+          "name": "Pink Floyd",
+          "cover":"pink_floyd.jpg",
+          "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+          "albums": [
+              {"albumId":"d1","title":"The Wall","year":1979,"cover":"the_wall.jpg","price":20},
+              {"albumId":"d2","title":"The Dark Side of the Moon","year":1973,"cover":"dark_side.jpg","price":25},
+              {"albumId":"d3","title":"Animals","year":1977,"cover":"animals.jpg","price":15}
+          ],
+          "style":"Rock"
+      },
+      {
+        "id": 5,
+        "name": "Joe Satriani",
+        "cover":"Joe_satriani.jpg",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "albums": [
+            {"albumId":"e1","title":"The extremist","year":1979,"cover":"the_extremist.jpg","price":20},
+            {"albumId":"e2","title":"Super colossal","year":1997,"cover":"super_colossal.jpg","price":25},
+            {"albumId":"e3","title":"Engines of creation","year":2000,"cover":"Engines_Of_Creation.jpg","price":15},
+            {"albumId":"e4","title":"Surfing with the alien","year":1985,"cover":"surfing_alien.jpg","price":15}
+        ],
+        "style":"Rock"
+        },
+        {
+            "id": 6,
+            "name": "Lynyrd Skynyrd",
+            "cover":"lynyrd_skynyrd.jpg",
+            "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "albums": [
+                {"albumId":"f1","title":"Street survivors","year":1979,"cover":"street_survivors.jpg","price":20},
+                {"albumId":"f2","title":"Gimme back my bullets","year":1997,"cover":"gimme_back_my_bullets.jpg","price":25},
+                {"albumId":"f3","title":"Last of a dying breed","year":2000,"cover":"Last_Of_A_Dyin_Breed.jpg","price":15}
+            ],
+            "style":"Rock"
+        },
+        {
+            "id": 7,
+            "name": "Red hot chili peppers",
+            "cover":"red_hot.jpg",
+            "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "albums": [
+                {"albumId":"g1","title":"Californication","year":1979,"cover":"californication.jpg","price":20},
+                {"albumId":"g2","title":"Blood sugar sex magic","year":1997,"cover":"sugar_sex_magic.jpg","price":25},
+                {"albumId":"g3","title":"Cant stop","year":2000,"cover":"cant_stop.jpg","price":15},
+                {"albumId":"g3","title":"The gateway","year":2000,"cover":"the_gateway.jpg","price":15}
+            ],
+            "style":"Rock"
+        },
+        {
+            "id": 8,
+            "name": "Lenny Kravitz",
+            "cover":"lenny_kravitz.jpg",
+            "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "albums": [
+                {"albumId":"h1","title":"5","year":1979,"cover":"5.jpg","price":20},
+                {"albumId":"h2","title":"Are you gonna go my way","year":1997,"cover":"are_you.jpg","price":25},
+                {"albumId":"h3","title":"Let love rule","year":2000,"cover":"let_love_rule.jpg","price":15}
+            ],
+            "style":"Rock"
+        },
+        {
+            "id": 9,
+            "name": "The white stripes",
+            "cover":"the_white_stripes.jpg",
+            "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "albums": [
+                {"albumId":"h1","title":"Elephant","year":1979,"cover":"elephant.jpg","price":20},
+                {"albumId":"h2","title":"Under great white northern lights","year":1997,"cover":"under.jpg","price":25},
+                {"albumId":"h3","title":"Icky thump","year":2000,"cover":"icky_thump.jpg","price":15}
+            ],
+            "style":"Rock"
+        },
+        {
+            "id": 10,
+            "name": "Pearl jam",
+            "cover":"pearl_jam.jpg",
+            "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "albums": [
+                {"albumId":"h1","title":"Ten","year":1979,"cover":"ten.jpg","price":20},
+                {"albumId":"h2","title":"Vs","year":1997,"cover":"vs.jpg","price":25},
+                {"albumId":"h3","title":"Vitalogy","year":2000,"cover":"vitalogy.jpg","price":15}
+            ],
+            "style":"Rock"
+        }
+    ],
+    "menus" : [
+      {
+        "id": 1,
+        "name": "Sosyal Medya İşlemleri",
+        "menu": [
+          {
+            "menuId": "10",
+            "name": "Crm Form İşlemleri",
+            "murl": "/crmform"
+          },
+          {
+            "menuId": "11",
+            "name": "Form İşlemleri",
+            "murl": "/form"
+          },
+          {
+            "menuId": "12",
+            "name": "Hedef Kitle",
+            "murl": "/hedef"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Yetkilendirme İşlemleri",
+        "menu": [
+          {
+            "menuId": "20",
+            "name": "Kullanıcı",
+            "murl": "/kullanici"
+          },
+          {
+            "menuId": "21",
+            "name": "Modül",
+            "murl": "/modul"
+          },
+          {
+            "menuId": "22",
+            "name": "Rol",
+            "murl": "/rol"
+          },
+          {
+            "menuId": "23",
+            "name": "Yetki",
+            "murl": "/yetki"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Test İşlemleri",
+        "menu": [
+          {
+            "menuId": "31",
+            "name": "Ana Menu",
+            "murl": "/"
+          },
+          {
+            "menuId": "32",
+            "name": "Alt Menu",
+            "murl": "/artist/1"
+          }
+        ]
+      }
+    ],
+    "users" : [
+      {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "admin",
+        "password": "112",
+        "email": "Sincere@april.biz",
+        "address": {
+          "street": "Kulas Light",
+          "suite": "Apt. 556",
+          "city": "Gwenborough",
+          "zipcode": "92998-3874",
+          "geo": {
+            "lat": "-37.3159",
+            "lng": "81.1496"
+          }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+          "name": "Romaguera-Crona",
+          "catchPhrase": "Multi-layered client-server neural-net",
+          "bs": "harness real-time e-markets"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Ervin Howell",
+        "username": "Antonette",
+        "password": "112",
+        "email": "Shanna@melissa.tv",
+        "address": {
+          "street": "Victor Plains",
+          "suite": "Suite 879",
+          "city": "Wisokyburgh",
+          "zipcode": "90566-7771",
+          "geo": {
+            "lat": "-43.9509",
+            "lng": "-34.4618"
+          }
+        },
+        "phone": "010-692-6593 x09125",
+        "website": "anastasia.net",
+        "company": {
+          "name": "Deckow-Crist",
+          "catchPhrase": "Proactive didactic contingency",
+          "bs": "synergize scalable supply-chains"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Clementine Bauch",
+        "username": "Samantha",
+        "password": "112",
+        "email": "Nathan@yesenia.net",
+        "address": {
+          "street": "Douglas Extension",
+          "suite": "Suite 847",
+          "city": "McKenziehaven",
+          "zipcode": "59590-4157",
+          "geo": {
+            "lat": "-68.6102",
+            "lng": "-47.0653"
+          }
+        },
+        "phone": "1-463-123-4447",
+        "website": "ramiro.info",
+        "company": {
+          "name": "Romaguera-Jacobson",
+          "catchPhrase": "Face to face bifurcated interface",
+          "bs": "e-enable strategic applications"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Patricia Lebsack",
+        "username": "Karianne",
+        "password": "112",
+        "email": "Julianne.OConner@kory.org",
+        "address": {
+          "street": "Hoeger Mall",
+          "suite": "Apt. 692",
+          "city": "South Elvis",
+          "zipcode": "53919-4257",
+          "geo": {
+            "lat": "29.4572",
+            "lng": "-164.2990"
+          }
+        },
+        "phone": "493-170-9623 x156",
+        "website": "kale.biz",
+        "company": {
+          "name": "Robel-Corkery",
+          "catchPhrase": "Multi-tiered zero tolerance productivity",
+          "bs": "transition cutting-edge web services"
+        }
+      },
+      {
+        "id": 5,
+        "name": "Chelsey Dietrich",
+        "username": "Kamren",
+        "password": "112",
+        "email": "Lucio_Hettinger@annie.ca",
+        "address": {
+          "street": "Skiles Walks",
+          "suite": "Suite 351",
+          "city": "Roscoeview",
+          "zipcode": "33263",
+          "geo": {
+            "lat": "-31.8129",
+            "lng": "62.5342"
+          }
+        },
+        "phone": "(254)954-1289",
+        "website": "demarco.info",
+        "company": {
+          "name": "Keebler LLC",
+          "catchPhrase": "User-centric fault-tolerant solution",
+          "bs": "revolutionize end-to-end systems"
+        }
+      },
+      {
+        "id": 6,
+        "name": "Mrs. Dennis Schulist",
+        "username": "Leopoldo_Corkery",
+        "password": "112",
+        "email": "Karley_Dach@jasper.info",
+        "address": {
+          "street": "Norberto Crossing",
+          "suite": "Apt. 950",
+          "city": "South Christy",
+          "zipcode": "23505-1337",
+          "geo": {
+            "lat": "-71.4197",
+            "lng": "71.7478"
+          }
+        },
+        "phone": "1-477-935-8478 x6430",
+        "website": "ola.org",
+        "company": {
+          "name": "Considine-Lockman",
+          "catchPhrase": "Synchronised bottom-line interface",
+          "bs": "e-enable innovative applications"
+        }
+      },
+      {
+        "id": 7,
+        "name": "Kurtis Weissnat",
+        "username": "Elwyn.Skiles",
+        "password": "112",
+        "email": "Telly.Hoeger@billy.biz",
+        "address": {
+          "street": "Rex Trail",
+          "suite": "Suite 280",
+          "city": "Howemouth",
+          "zipcode": "58804-1099",
+          "geo": {
+            "lat": "24.8918",
+            "lng": "21.8984"
+          }
+        },
+        "phone": "210.067.6132",
+        "website": "elvis.io",
+        "company": {
+          "name": "Johns Group",
+          "catchPhrase": "Configurable multimedia task-force",
+          "bs": "generate enterprise e-tailers"
+        }
+      },
+      {
+        "id": 8,
+        "name": "Nicholas Runolfsdottir V",
+        "username": "Maxime_Nienow",
+        "password": "112",
+        "email": "Sherwood@rosamond.me",
+        "address": {
+          "street": "Ellsworth Summit",
+          "suite": "Suite 729",
+          "city": "Aliyaview",
+          "zipcode": "45169",
+          "geo": {
+            "lat": "-14.3990",
+            "lng": "-120.7677"
+          }
+        },
+        "phone": "586.493.6943 x140",
+        "website": "jacynthe.com",
+        "company": {
+          "name": "Abernathy Group",
+          "catchPhrase": "Implemented secondary concept",
+          "bs": "e-enable extensible e-tailers"
+        }
+      },
+      {
+        "id": 9,
+        "name": "Glenna Reichert",
+        "username": "Delphine",
+        "password": "112",
+        "email": "Chaim_McDermott@dana.io",
+        "address": {
+          "street": "Dayna Park",
+          "suite": "Suite 449",
+          "city": "Bartholomebury",
+          "zipcode": "76495-3109",
+          "geo": {
+            "lat": "24.6463",
+            "lng": "-168.8889"
+          }
+        },
+        "phone": "(775)976-6794 x41206",
+        "website": "conrad.com",
+        "company": {
+          "name": "Yost and Sons",
+          "catchPhrase": "Switchable contextually-based project",
+          "bs": "aggregate real-time technologies"
+        }
+      },
+      {
+        "id": 10,
+        "name": "Clementina DuBuque",
+        "username": "Moriah.Stanton",
+        "password": "112",
+        "email": "Rey.Padberg@karina.biz",
+        "address": {
+          "street": "Kattie Turnpike",
+          "suite": "Suite 198",
+          "city": "Lebsackbury",
+          "zipcode": "31428-2261",
+          "geo": {
+            "lat": "-38.2386",
+            "lng": "57.2232"
+          }
+        },
+        "phone": "024-648-3804",
+        "website": "ambrose.net",
+        "company": {
+          "name": "Hoeger LLC",
+          "catchPhrase": "Centralized empowering task-force",
+          "bs": "target end-to-end models"
+        }
+      }
+    ],
+    "stationoperations" : [
+      {
+        "id": 1,
+        "name": "Taşlama 1",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 2,
+        "name": "Taşlama 2",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 3,
+        "name": "Taşlama 3",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 4,
+        "name": "Taşlama 4",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 5,
+        "name": "Taşlama 5",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 6,
+        "name": "Taşlama 6",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 7,
+        "name": "Taşlama 7",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 8,
+        "name": "Taşlama 8",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 9,
+        "name": "Taşlama 9",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 10,
+        "name": "Taşlama 10",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 11,
+        "name": "Taşlama 11",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 12,
+        "name": "Taşlama 12",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 13,
+        "name": "Taşlama 13",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 14,
+        "name": "Taşlama 14",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 15,
+        "name": "Taşlama 15",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 16,
+        "name": "Taşlama 16",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 17,
+        "name": "Taşlama 17",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 18,
+        "name": "Taşlama 18",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 19,
+        "name": "Taşlama 19",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 20,
+        "name": "Taşlama 20",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 21,
+        "name": "Taşlama 21",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 22,
+        "name": "Taşlama 22",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 23,
+        "name": "Taşlama 23",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 24,
+        "name": "Taşlama 24",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 25,
+        "name": "Taşlama 25",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 26,
+        "name": "Taşlama 26",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 27,
+        "name": "Taşlama 27",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      },
+      {
+        "id": 28,
+        "name": "Taşlama 28",
+        "operation": "Taşlama",
+        "shift": "0700",
+        "capacity": "70%",
+        "ability": "100"
+      }
+    ]
+}

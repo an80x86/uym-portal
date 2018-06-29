@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { propTypes, reduxForm, Field } from 'redux-form';
 import { connect } from 'react-redux';
 import compose from 'recompose/compose';
+import axios from 'axios';
 
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
@@ -71,13 +72,25 @@ const renderInput = ({
 );
 
 class Login extends Component {
-    login = auth =>
-        this.props.userLogin(
-            auth,
-            this.props.location.state
-                ? this.props.location.state.nextPathname
-                : '/'
-        );
+    login = auth => {
+        const { userLogin, location,   } = this.props;
+        axios.get('http://localhost:3004/users')
+        .then(function (response) {
+            var iscorrect = Boolean(false);
+            response.data.forEach((v) => {
+                if (v.username === auth.username && v.password === auth.password) {
+                    iscorrect = true;
+                }
+            });
+            const auth2 = { username: auth.username, iscorrect };
+            userLogin(
+                auth2,
+                location.state
+                    ? location.state.nextPathname
+                    : '/'
+            );
+        });
+    }
 
     render() {
         const { classes, handleSubmit, isLoading, translate } = this.props;
